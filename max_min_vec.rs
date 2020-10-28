@@ -43,7 +43,9 @@ fn main() {
             },
             None => print!("Não foram dados valores\n"),
         }
-    }
+    } // while nao_quer_sair
+    print!("Programa finalizado.\n");
+    print!("Até mais C: \n\n");
 }
 
 fn ler_string(input: &mut String) {
