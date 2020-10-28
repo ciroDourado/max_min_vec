@@ -13,6 +13,7 @@ fn main() {
         let mut vetor: [Option<i32>; MAX] = [None; MAX];
         let mut i: usize = 0;
         while i < vetor.len() {
+            print!("Dê um número, ou 'sair' para finalizar o programa.\n");
             print!("{}. ", i+1); flush_this();
             ler_string(&mut input);
             clear_terminal();
