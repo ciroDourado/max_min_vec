@@ -51,8 +51,8 @@ fn ler_string(input: &mut String) {
     stdin().read_line(input).expect("input!");
 }
 
-// caso encontre algo, retorna Some(valor); no contrário, None
-// percorre o vetor inteiro, parando apenas caso encontre uma casa vazia
+// caso encontre algo, retorna Some(valor); no contrário, None;
+// percorre o vetor inteiro, parando apenas caso encontre uma casa "vazia"
 fn maximo_ate_none(vetor: [Option<i32>; MAX]) -> Option<i32> {
     let mut maior_do_vetor: Option<i32> = vetor[0];
     let mut index: usize = 0;
